@@ -9,8 +9,8 @@ export default function TabLayout() {
         },
       }}
     >
-      <Tabs.Screen name="home" options={{}} />
-      <Tabs.Screen name="menu" options={{}} />
+      <Tabs.Screen name="home" options={{ headerShown: false }} />
+      <Tabs.Screen name="menu" options={{ headerShown: false }} />
     </Tabs>
   );
 }
